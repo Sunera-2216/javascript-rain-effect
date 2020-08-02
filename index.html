@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Javascript Rain Effect</title>
+</head>
+
+<body>
+    <div class="btn-section">
+        <span>
+            <b>Drops : 
+                <span id="selectDropsCount"></span>
+            </b>
+        </span>
+
+        <a class="drop-btn" onclick="changeDropCount(100)">100</a>
+        <a class="drop-btn" onclick="changeDropCount(200)">200</a>
+        <a class="drop-btn" onclick="changeDropCount(500)">500</a>
+        <a class="drop-btn" onclick="changeDropCount(800)">800</a>
+    </div>
+
+    <div id="drops-section"></div>
+
+    <script src="js/waterDrop.js"></script>
+    <script src="js/rain.js"></script>
+    
+</body>
+</html>
